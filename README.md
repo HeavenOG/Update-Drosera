@@ -9,7 +9,7 @@ A simple guide to upgrade your Drosera operator node without breaking anything. 
 ### If using Docker:
 ```bash
 cd ~
-cd ~/Droseta-Network
+cd ~/Drosera-Network
 docker compose down -v
 ```
 
