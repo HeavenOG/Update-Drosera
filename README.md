@@ -24,8 +24,11 @@ sudo systemctl disable drosera
 ## 2. Update Drosera:
 ```bash
 cd ~
-curl -LO https://github.com/drosera-network/releases/releases/download/v1.17.1/drosera-operator-v1.17.1-x86_64-unknown-linux-gnu.tar.gz
-tar -xvf drosera-operator-v1.17.1-x86_64-unknown-linux-gnu.tar.gz
+curl -LO https://github.com/drosera-network/releases/releases/download/v1.17.0/drosera-operator-v1.17.0-x86_64-unknown-linux-gnu.tar.gz
+tar -xvf drosera-operator-v1.17.0-x86_64-unknown-linux-gnu.tar.gz
+
+sudo cp drosera-operator /usr/bin
+drosera-operator --version
 ```
 
 ---
