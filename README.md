@@ -66,7 +66,20 @@ docker pull ghcr.io/drosera-network/drosera-operator:latest
 
 ---
 
-## 5. Run the Node:
+## 5. Open port:
+```bash
+sudo ufw allow ssh
+sudo ufw allow 22/tcp
+sudo ufw allow 22/udp
+sudo ufw allow 31313/tcp
+sudo ufw allow 31313/udp
+sudo ufw allow 31314/tcp
+sudo ufw allow 31314/udp
+sudo ufw enable
+sudo ufw reload
+```
+
+## 6. Run the Node:
 
 ### If using Docker:
 ```bash
