@@ -24,7 +24,7 @@ sudo systemctl disable drosera
 ## 2. Update Drosera:
 ```bash
 cd ~
-curl -LO https://github.com/drosera-network/releases/releases/download/v1.17.1/drosera-operator-v1.17.1-x86_64-unknown-linux-gnu.tar.gz
+curl -LO https://github.com/drosera-network/releases/releases/download/v1.17.2/drosera-operator-v1.17.2-x86_64-unknown-linux-gnu.tar.gz
 tar -xvf drosera-operator-v1.17.1-x86_64-unknown-linux-gnu.tar.gz
 
 sudo cp drosera-operator /usr/bin
@@ -58,10 +58,7 @@ docker pull ghcr.io/drosera-network/drosera-operator:latest
     ```toml
     drosera_rpc = "https://layer.testnet.drosera.io/"
     ```
-    OR (if :point_up_2: not working):
-    ```toml
-    drosera_team = "https://relayer.testnet.drosera.io/"
-    ```
+
 
 3. Save the file and run the following command:
     ```bash
