@@ -25,7 +25,7 @@ sudo systemctl disable drosera
 ```bash
 cd ~
 curl -LO https://github.com/drosera-network/releases/releases/download/v1.17.2/drosera-operator-v1.17.2-x86_64-unknown-linux-gnu.tar.gz
-tar -xvf drosera-operator-v1.17.1-x86_64-unknown-linux-gnu.tar.gz
+tar -xvf drosera-operator-v1.17.2-x86_64-unknown-linux-gnu.tar.gz
 
 sudo cp drosera-operator /usr/bin
 drosera-operator --version
