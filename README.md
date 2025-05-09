@@ -58,6 +58,10 @@ docker pull ghcr.io/drosera-network/drosera-operator:latest
     ```toml
     drosera_rpc = "https://layer.testnet.drosera.io/"
     ```
+    OR (if :point_up_2: not working):
+    ```toml
+    drosera_team = "https://relayer.testnet.drosera.io/"
+    ```
 
 3. Save the file and run the following command:
     ```bash
